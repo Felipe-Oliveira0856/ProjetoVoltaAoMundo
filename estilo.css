@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+header {
+    background-color: rgb(10, 80, 10);
+}
+#topo {
+    height: 150px;
+
+}
+header h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    color: #FFF;
+    letter-spacing: 5px;
+    line-height: 70px;
+    width: fit-content;
+    float: left;
+    padding: 35px 0 30px 30px;
+}
+header img {
+    float: right;
+    margin: 15px 30px 0px 0;
+    border: #CCC solid 2px;
+}
+
+main {
+    width: 1550px;
+    height: max-content;
+
+}
+
+main h2 {
+    text-align: left;
+    color: #b10000;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    
+}
+
+main p {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#video {
+    margin-bottom: 320px;
+}
+#video iframe{
+    margin-top: 30px;
+    display: block;
+    float: right;
+    border: 4px solid #404040;
+    border-radius: 5px;
+}
+
+#video p{
+    float: left;
+    width: 820px;
+}
+#destaque {
+    padding: 20px 0 10px 150px;
+}
+
+#destaque img{
+    border: #222522 solid 3px;
+    border-radius: 10px;
+    margin-right: 19px;
+}
+
+footer {
+    background-color: #b10000;
+    text-align: center;
+    color: #FFF;
+    padding: 50px 0;
+    font-size: 18px;
+    width: 100%;
+}
+
+footer p{
+    background-color: #b10000;
+    text-align: center;
+    font-weight: bold;
+    color: #FFF;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: #b10000;
+    height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+nav ul li a {
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #FFF;
+    color: #b10000;
+    font-weight: bold;
+    width: fit-content;
+    border-radius: 5px;
+
+}
+
+.fotos {
+    padding-left: 150px;
+}
+
+.fotos img{
+    border: #000 solid 3px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.cultura {
+    padding-left: 150px;
+}
+
+.cultura img {
+    border: #000 solid 3px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.cultura p {
+    margin-bottom: 250px;
+}
+.sobre{
+    margin-left: 145px;
+    margin-bottom: 20px;
+    float: center;
+}
+
+table, th, td {
+  border:1px solid black;
+  
+}
+
+th, td {
+    padding-left: 10px;
+}
+table {
+    margin-left: 550px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 450px;
+}
+
+.geral {
+    margin-left:100px;
+    margin-bottom: 40px;
+}
