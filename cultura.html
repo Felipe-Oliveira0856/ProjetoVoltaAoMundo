@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Viagem ao México - Cultura Local</title>
     <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,14 +15,23 @@
             <img src="imagens/mex-bandeira.png" alt="México" width="220px" height="120">
         </div>       
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Página Home</a></li>
-                <li><a href="pontos.html">Pontos Turísticos</a></li>
-                <li><a href="cultura.html">Cultura Local</a></li>
-                <li><a href="pratos.html">Pratos Típicos</a></li>
-                <li><a href="geral.html">Outras informações</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color:#b10000;">
+            <div class="container">
+
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    ☰
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="index.html">Página Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="pontos.html">Pontos Turísticos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="pratos.html">Pratos Típicos</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="geral.html">Informações Gerais</a></li>
+                    </ul>
+                </div>
+
+            </div>
         </nav>
 
     </header>
@@ -76,6 +86,10 @@
     <footer>
         <p>- Projeto Volta ao Mundo -</p>
         <i>Desenvolvido por Felipe Oliveira</i>
-    </footer>     
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+     
 </body>
 </html>
