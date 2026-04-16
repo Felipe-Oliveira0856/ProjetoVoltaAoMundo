@@ -36,21 +36,332 @@
 
     </header>
     <main>
-        <h2>Conheça alguns pontos turísticos famosos no México</h2>
+        <div class="container">
 
-        <p class="sobre">O turismo figura como uma relevante atividade econômica para o México, o qual ocupa um lugar de destaque nesse seguimento em escala mundial, ficando na oitava posição em relação à quantidade de turistas estrangeiros que visita o país.</p>
-        <br>
+            <h2 class="mt-4">Conheça alguns pontos turísticos famosos no México</h2>
 
-        <div class="fotos">
-            <a href="chichen.html"><img src="imagens/chichen.jpg" title="Chichén Itzá"alt="Chichén Itzá" width= 670px; height= 450px;></a>
-            <a href="bellas.html"><img src="imagens/bellasartes.jpg" title="Palácio Bellas Artes" alt="Palácio Bellas Artes" width= 670px; height= 450px;></a>
-            <a href="xcaret.html"><img src="imagens/Xcaret.jpg" title="Parque Eco-arquiológico Xcaret" alt="Xcaret" width= 670px; height= 450px;></a>
-            <a href="castelo.html"><img src="imagens/castelo-de-chapultepec.jpg" title="Castelo de Chapultepec" alt="Castelo de Chapultepec" width= 670px; height= 450px;></a>
+            <p class="sobre">
+                O turismo figura como uma relevante atividade econômica para o México, o qual ocupa um lugar de destaque
+                nesse segmento em escala mundial.
+            </p>
+
+                <div class="accordion mt-4" id="accordionPontosTuristicos">
+
+                    <!-- Chichén Itzá -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                Chichén Itzá
+                            </button>
+                        </h2>
+
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrosel do chichen  -->
+                                    <div class="col-md-6">
+                                        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/chichen.jpg" title="Chichén Itzá - Frente" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/chichen2.jpeg" title="Chichén Itzá - Visão de cima" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/chichen3.jpg" title="Chichén Itzá - Estruturas ao lado" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/chichen4.jpg" title="Chichén Itzá - Estruturas ao lado" class="d-block w-100">
+                                                </div>
+
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Chichén Itzá</h3>
+                                        <p>Um dos sítios arqueológicos mais famosos do México. São estruturas de ruínas maias na Península de Yucatáns (parte Sul do país que separa o Golfo do México do Mar do Caribe).</p>
+                                        <p>A enorme pirâmide com degraus é conhecida como El Castillo e domina a cidade antiga de 6,5 quilómetros quadrados, que prosperou de 600 d.C. até ao século XIII.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bellas Artes -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                Palácio de Bellas Artes
+                            </button>
+                        </h2>
+
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrossel do bellas artes -->
+                                    <div class="col-md-6">
+                                        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/bellasartes.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/bellas2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/bellas3.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/bellas4.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/bellas5.jpg" class="d-block w-100">
+                                                </div>
+
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao"class="col-md-6 text-white">
+                                        <h3>Palácio de Bellas Artes</h3>
+                                        <p>Um dos principais centros culturais do México, sendo o principal teatro de ópera da Cidade do México.</p>
+                                        <p>É famoso pela sua arquitetura exterior, em estilo Beaux Arts utilizando mármore branco de Carrara, e pelos seus murais interiores. Com capacidade de até 1.705 pessoas.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Xcaret -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                Parque Xcaret
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrosel do xcaret -->
+                                    <div class="col-md-6">
+                                        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/caret.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret2.jpeg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret3.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret4.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret5.jpg" class="d-block w-100">
+                                                </div>
+
+
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao"class="col-md-6 text-white">
+                                        <h3>Parque Xcaret</h3>
+                                        <p>Parque ecológico com atrações naturais e culturais que combina natureza, cultura maia e atrações temáticas. </p>
+                                        <p>É um local muito popular para fotos e experiências em família, e possui mais de 50 atrações.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Castelo-->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                Castelo de Chapultepec
+                            </button>
+                        </h2>
+
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- carrossel do castelo -->
+                                    <div class="col-md-6">
+                                        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/castelo-de-chapultepec.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel.jpeg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel3.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel4.jpg" class="d-block w-100">
+                                                </div>
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel5.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Castelo de Chapultepec</h3>
+                                        <p>Um dos monumentos históricos mais importantes do México, localizado na Cidade do México.</p>
+                                        <p>É localizada no alto de uma colina, no centro do Bosque de Chapultepec, a uma altura de 2.325 metros acima do nível do mar, integrando o Parque de Chapultepec.</p>
+                                        <p> Construído no final do século XVIII e já foi sede do Colégio Militar, residência imperial e presidencial.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Praia del Carmen -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                Playa del Carmen
+                            </button>
+                        </h2>
+
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- carrossel da praia -->
+                                    <div class="col-md-6">
+                                        <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/playa.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/playa1.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/playa2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/playa3.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/playa4.jpg" class="d-block w-100">
+                                                </div>
+
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Playa del Carmen</h3>
+                                        <p>Uma das praias mais belas do México, conhecida por suas águas cristalinas e areia branca, sendo também um dos principais destinos turísticos do México</p>
+                                        <p>É localizado no coração da Riviera Maia, no Caribe Mexicano.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-        
     </main>
+    <br>
+
     <footer>
-        <p>- Projeto Volta ao Mundo -</p>
+        <p>- Projeto Volta ao Mundo 2.0 -</p>
         <i>Desenvolvido por Felipe Oliveira</i>
     </footer>
 

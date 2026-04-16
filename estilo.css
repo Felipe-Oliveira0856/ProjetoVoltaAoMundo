@@ -64,7 +64,7 @@ main h2 {
     text-align: left;
     color: #b10000;
     font-size: 26px;
-    padding: 20px;
+    padding: 10px 0;
     
 }
 
@@ -146,15 +146,15 @@ nav ul li a:hover {
 
 }
 
-.fotos {
-    padding-left: 150px;
+.sobre{
+    margin: 5px auto;
+    text-align: center;
 }
 
-.fotos img{
+#fotos img{
     border: #000 solid 3px;
     border-radius: 10px;
-    margin-right: 20px;
-    margin-bottom: 30px;
+
 }
 
 .cultura {
@@ -171,11 +171,6 @@ nav ul li a:hover {
 
 .cultura p {
     margin-bottom: 250px;
-}
-.sobre{
-    margin-left: 145px;
-    margin-bottom: 20px;
-    text-align: center;
 }
 
 table {
