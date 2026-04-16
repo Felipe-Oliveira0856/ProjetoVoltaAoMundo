@@ -33,22 +33,278 @@
 
             </div>
         </nav>
-
     </header>
     <main>
-        <h2>Alguns pratos típicos da cultura mexicana</h2>
+        <div class="container">
 
-        <p class="sobre">A culinária mexicana é caracterizada pela combinação de sabores picantes, uso de especiarias e ervas frescas, e pela utilização de ingredientes frescos. A base da alimentação mexicana, desde tempos pré-colombianos, é o milho, que, juntamente com o feijão, forma a base de muitos pratos. </p>
-        <br>
+            <h2 class="mt-4">Aprendendo um pouco sobre a culinaria mexicana..</h2>
 
-        <div class="fotos">
-            <a href="#"><img src="imagens/taco.jpg" title="Tacos"alt="Tacos" width= 670px; height= 400px;></a>
-            <a href="#"><img src="imagens/burrito.jpg" title="Burritos" alt="Burritos" width= 670px; height= 400px;></a>
-            <a href="#"><img src="imagens/guacamole.jpg" title="Guacamole" alt="Guacamole" width= 670px; height= 400px;></a>
-            <a href="#"><img src="imagens/pandemuertos.jpg" title="Pan de Muertos" alt="Pan de Muertos" width= 670px; height= 400px;></a>
+            <p class="sobre">A culinária mexicana é caracterizada pela combinação de sabores picantes, uso de especiarias e ervas frescas, e pela utilização de ingredientes frescos. 
+                A base da alimentação mexicana, desde tempos pré-colombianos, é o milho, que, juntamente com o feijão, forma a base de muitos pratos.</p>
+
+                <div class="accordion mt-4" id="accordionPontosTuristicos">
+
+                    <!-- tacos -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                Tacos
+                            </button>
+                        </h2>
+
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrosel tacos -->
+                                    <div class="col-md-6">
+                                        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/taco.jpg" title="Tacos" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/taco2.jpg" title="Tacos" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Tacos</h3>
+                                        <p>Os tacos são um prato típico da culinária mexicana, consistindo em tortillas de milho ou trigo recheadas com diversos ingredientes, como carnes, frango ou vegetais, e temperados com uma variedade de especiarias e molhos.</p>
+                                        <p>É um prato muito popular em todo o México e é frequentemente servido em restaurantes e barracas ao longo do país.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Burritos -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                Burritos
+                            </button>
+                        </h2>
+
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrossel burrito -->
+                                    <div class="col-md-6">
+                                        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/burrito.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/burrito2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/burrito3.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao"class="col-md-6 text-white">
+                                        <h3>Burritos</h3>
+                                        <p>Os burritos são um prato típico da culinária mexicana, consistindo em tortillas de milho ou trigo recheadas com diversos ingredientes, como carne moída, frango, peixe ou vegetais, e temperados com uma variedade de especiarias e molhos.</p>
+                                        <p>É um prato muito popular em todo o México e é frequentemente servido em restaurantes e barracas ao longo do país.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Jericalla -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                Jericalla
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrosel jericalla -->
+                                    <div class="col-md-6">
+                                        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/jericalla.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/jericalla2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/jericalla3.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao"class="col-md-6 text-white">
+                                        <h3>Jericalla</h3>
+                                        <p>A Jericalla é um prato tradicional mexicano, que mistura características do pudim de leite e do crème brûlée.</p>
+                                        <p>Ela é cozida até ficar cremosa, finalizada com uma superfície queimada que dá um sabor caramelizado.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- guacamole -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                Guacamole
+                            </button>
+                        </h2>
+
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- carrossel guacamole -->
+                                    <div class="col-md-6">
+                                        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/guacamole.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/guacamole2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/guacamole3.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Guacamole</h3>
+                                        <p>Molho ou pasta tradicional da culinária mexicana, à base de abacate maduro amassado, tomate, cebola, coentro, limão e pimenta.</p>
+                                        <p>É um prato versátil, servido com tortillas, nachos ou como acompanhamento, originário dos astecas, seu nome significa "molho de abacate".</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pan de Muerto -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                Pan-de-Muerto
+                            </button>
+                        </h2>
+
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionPontosTuristicos">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- carrossel pandemuerto -->
+                                    <div class="col-md-6">
+                                        <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/pandemuertos.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/pan2.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Pan de Muerto</h3>
+                                        <p>Pan-de-muerto é um pão doce adornado com figuras, por vezes na forma de caveira, e polvilhado de açúcar.</p>
+                                        <p>Ele é um doce associado ao Dia dos Mortos e faz parte das oferendas colocadas nos “altares-dos-mortos”.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
-        
+
     </main>
+    <br>
+
     <footer>
         <p>- Projeto Volta ao Mundo -</p>
         <i>Desenvolvido por Felipe Oliveira</i>
