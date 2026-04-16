@@ -12,7 +12,7 @@
     <header>
         <div id="topo">
             <h1>Volta ao Mundo</h1>        
-            <img src="imagens/mex-bandeira.png" alt="México" width="220px" height="120">
+            <img class ="bandeira" src="imagens/mex-bandeira.png" alt="México" title="Bandeira do México">
         </div>       
 
         <nav class="navbar navbar-expand-lg" style="background-color:#b10000;">
@@ -36,38 +36,68 @@
 
     </header>
     <main>
-        <h2>Venha e conheça mais sobre o México e sua cultura!</h2>
+
+        <div class="banner">
+                    <img class="img-fluid banner-img" src="imagens/mex.jpg" title="Cidade do México" alt="México">
+        </div>
 
         <div id="destaque">
-            <div class="mex">
-                    <img src="imagens/mex.jpg" title="Cidade do México" alt="México" width= 670px; height= 450px;>
-                    <img src="imagens/praia-golfo.jpg" title="Praia do Golfo" alt="Praia do Golfo" width= 670px; height= 450px;>
-            </div>
-
+            <h2>Conheça mais sobre o México e sua cultura!</h2>
             <p>O <b>México</b> é um país localizado na <b>América do Norte</b>. Historicamente, foi colonizado pela Espanha e se tornou <b>uma das principais 
                 possessões europeias no continente americano</b>. A independência tornou possível o crescimento da economia mexicana. O México possui um 
                 dos maiores parques fabris da América, além disso, é <b>um dos principais centros do turismo mundial</b>. O território mexicano possui 
                 belas paisagens naturais, um vasto litoral e praias de clima tropical. É um dos países mais populosos do mundo e um dos principais 
                 atores geopolíticos da América.</p>
 
+                <div class="mex text-center">
+                    <img class="img-fluid" src="imagens/mex-cidade.jpg" title="Cidade do México" alt="México">
+                </div>
+        </div>
         <br>
         <hr>
 
-        <div id="video">    
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/BnxVlcBCmlc?si=0-7lWOv58gn1xqcg" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <br>
+        <div class="row mt-4">
+            <div class="col">
+                    <div class="accordion" id="accordionExample">
+                            <div class="accordion-item bg-dark">
+                                <div class="accordion-header" id="headingOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                            História do México
+                                        </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <div class="row">
+                                            <div id="video" class="col-md-6">    
+                                                <iframe class="w-100" height="380" src="https://www.youtube.com/embed/BnxVlcBCmlc?si=0-7lWOv58gn1xqcg" title="YouTube video player" frameborder="0" 
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                                <br>
+                                            </div>
 
-            <h3>Breve história</h3>
-            <p>A história do <b>México</b> começa com civilizações indígenas como os Olmecas e Astecas, seguidas pela conquista espanhola em <b>1519</b> e 
-            a formação da colônia da <b>Nova Espanha</b>. Após um período de domínio espanhol, o México conquistou a independência em 1821 e se tornou
-            uma república.</p>
-            <p>No entanto, enfrentou <b>conflitos internos</b>, como a Revolução Mexicana, e disputas territoriais com os Estados Unidos, 
-            incluindo a Guerra Mexicano-Americana...</p>
-            <br>
+                                            <div id="historia" class="col-md-6">
+                                                <h3>Um pouco sobre sua história...</h3>
+                                                <p>A história do <b>México</b> começa com civilizações indígenas como os Olmecas e Astecas, seguidas pela conquista espanhola em <b>1519</b> e 
+                                                a formação da colônia da <b>Nova Espanha</b>. Após um período de domínio espanhol, o México conquistou a independência em 1821 e se tornou
+                                                uma república.</p>
+                                                <p>No entanto, enfrentou <b>conflitos internos</b>, como a Revolução Mexicana, e disputas
+                                                territoriais com os Estados Unidos, incluindo a Guerra Mexicano-Americana...</p>
 
+                                                <div id="saibamais">
+                                                    <a href="geral.html" class="btn btn-primary">Mais informações</a>
+                                                </div>     
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </div>
         </div>
+        <br>
+        
     </main>
     <footer>
         <p>- Projeto Volta ao Mundo -</p>
