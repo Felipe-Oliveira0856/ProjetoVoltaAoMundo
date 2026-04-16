@@ -27,7 +27,6 @@ header {
 
 header h1 {
     text-transform: uppercase;
-    font-size: 28px;
     color: #FFF;
     letter-spacing: 3px;
     line-height: 70px;
@@ -49,6 +48,16 @@ header img {
     max-height: 400px;
     object-fit: cover;
     border: #222522 solid 3px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+#carouselExample {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 main h2 {
@@ -166,7 +175,7 @@ nav ul li a:hover {
 .sobre{
     margin-left: 145px;
     margin-bottom: 20px;
-    float: center;
+    text-align: center;
 }
 
 table {
