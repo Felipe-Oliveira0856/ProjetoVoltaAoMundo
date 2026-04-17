@@ -162,7 +162,7 @@ nav ul li a:hover {
 }
 
 .cultura {
-    padding-left: 150px;
+    padding: 20px;
 }
 
 .cultura img {
@@ -170,7 +170,6 @@ nav ul li a:hover {
     border-radius: 10px;
     margin-right: 20px;
     margin-bottom: 30px;
-    float: left;
 }
 
 .cultura p {
@@ -178,10 +177,7 @@ nav ul li a:hover {
 }
 
 table {
-    border-collapse: collapse;
-    width: 600px;
-    margin: 30px auto;
-    height: 450px;
+    width: 100%;
 }
 
 table, th, td {
@@ -193,10 +189,9 @@ th, td {
     padding-left: 10px;
 }
 
-
-.geral {
-    margin-left:100px;
-    margin-bottom: 40px;
+#mapa {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {

@@ -19,7 +19,7 @@
             <div class="container">
 
                 <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-                    ☰
+                    <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-center" id="menu">
@@ -36,54 +36,74 @@
 
     </header>
     <main>
-        <h2>Informações Gerais</h2>
-        
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="2"><b>Dados Gerais:</b></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><b>Capital do país</b></td>
-                    <td>Cidade do México</td>
-                </tr>
-                <tr>
-                    <td><b>Continente</b></td>
-                    <td>América do Norte</td>
-                </tr>
-                <tr>
-                    <td><b>Área</b></td>
-                    <td>1.973.000 km²</td>
-                </tr>
-                <tr>
-                    <td><b>População</b></td>
-                    <td>Cerca de 130 milhões de habitantes</td>
-                </tr>
-                <tr>
-                    <td><b>Idioma oficial</b></td>
-                    <td>Espanhol</td>
-                </tr>
-                <tr>
-                    <td><b>Fuso horário</b></td>
-                    <td>UTC+6</td>
-                </tr>
-                <tr>
-                    <td><b>Densidade demográfica</b></td>
-                    <td>67 habitantes/km²</td>
-                </tr>
-                <tr>
-                    <td><b>Moeda oficial</b></td>
-                    <td>Peso mexicano (MXN)</td>
-                </tr>
-            </tbody>
-        </table>
-        
-        <p class="geral">O México é um país situado entre os Estados Unidos e a América Central, conhecido pelas praias no Pacífico
-            e no Golfo do México e pela paisagem diversificada que inclui montanhas, desertos e selvas. Ruínas antigas,
-            como Teotihuacán e a cidade maia de Chichén Itzá, estão espalhadas pelo país, assim como cidades da era colonial espanhola. 
-            Na capital, Cidade do México, lojas elegantes, museus renomados e restaurantes gourmet atendem às necessidades da vida moderna.</p>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <div id="destaque">
+                        <h2>Informações Gerais</h2>
+                        <p>Informações adicionais gerais sobre o México.</p>
+                        <hr>
+
+                            <div class="row align-items-center mt-4">
+
+                                <!-- Tabela dos dados do México gerais -->
+                                <div class="col-md-6">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th colspan="2"><b>Dados Gerais:</b></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><b>Capital do país</b></td>
+                                                <td>Cidade do México</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Continente</b></td>
+                                                <td>América do Norte</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Área</b></td>
+                                                <td>1.973.000 km²</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>População</b></td>
+                                                <td>Cerca de 130 milhões</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Idioma oficial</b></td>
+                                                <td>Espanhol</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Fuso horário</b></td>
+                                                <td>UTC-6</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Densidade demográfica</b></td>
+                                                <td>67 hab/km²</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Moeda</b></td>
+                                                <td>Peso mexicano</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <!-- parte do Mapa -->
+                                <div id="mapa" class="col-md-6 text-center">
+                                    <h3>Mapa do México</h3>
+                                    <img src="imagens/mapamex.png" class="img-fluid w-100" title="Mapa do México" alt="Mapa do México">
+                                </div>
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
     <footer>
