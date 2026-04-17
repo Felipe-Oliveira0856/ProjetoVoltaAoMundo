@@ -36,51 +36,313 @@
     </header>
     
     <main>
-        <h2>Curiosidades sobre a cultura mexicana</h2>
 
-        <p class="sobre">A cultura mexicana, de origem milenar, muito rica e diversa, sofreu a influência de vários povos. Entres eles, 
-                destacam-se alguns povos pré-colombianos, como os astecas e maias, que viveram em território mexicano por milênios e construíram sociedades 
-                complexas e de enorme riqueza cultural, e os espanhóis, que colonizaram o país e impuseram suas tradições.</p>
-        <br>
+        <div class="container">
+            <h2 class="mt-4">Curiosidades sobre a cultura mexicana</h2>
 
-        <div class="cultura">
-            <a href="#"><img src="imagens/diadosmortos.jpg" title="Día del Muertos"alt="Día del Muertos" width= 650px; height= 400px;></a>
+            <p class="sobre"> A cultura mexicana é muito rica e diversa, e sofreu a influência de vários povos. Foram desde povos pré-colombianos, 
+                como os astecas e maias, que viveram em território mexicano por milênios e construíram sociedades complexas 
+                e de enorme riqueza cultural, e os espanhóis, que colonizaram o país e impuseram suas tradições.</p>
+            <hr>
 
-            <h2>Día de los Muertos</h2>
-            <p class="sobre"><b>O Día de los muertos</b> (Dia dos mortos) é uma data comemorativa celebrada no México no dia <b>2 de Novembro</b>, 
-                na qual é costume ir aos cemitérios visitar os túmulos dos entes queridos e preparar altares com alimentos, velas, flores e 
-                outros elementos. Dizem que, somente nesses dias, as almas podem voltar do além para estar perto dos seus entes queridos.</p>
-            <br>
 
-            <a href="#"><img src="imagens/mariachis.jpg" title="Mariachis" alt="Mariachis" width= 650px; height= 400px;></a>
+                <div class="accordion mt-4" id="accordionCultura">
 
-            <h2>Mariachis</h2>
-            <p class="sobre"><b>Los Mariachis</b> é um conjunto musical tradicional mexicano, caracterizado por uma variedade de instrumentos, 
-                principalmente de cordas, como violinos, violas e guitarras, além de trompetes e harpa. Entretanto, o nome <b>"Mariachi"</b> pode também ser usado 
-                para se referir aos músicos que fazem parte do conjunto ou à música que eles tocam. A música é um elemento essencial em festas, cerimónias 
-                e celebrações, sendo os mariachis um dos seus símbolos mais conhecidos.</p>
+                    <!-- Día de los Muertos -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                Día de los Muertos
+                            </button>
+                        </h2>
 
-            <a href="#"><img src="imagens/alejibres.jpg" title="Alejibres" alt="Alejibres" width= 650px; height= 420px;></a>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionCultura">
+                            <div class="accordion-body">
 
-            <h2>Alejibres</h2>
-            <p class="sobre">Os <b>Alebrijes</b> são figuras fantásticas e coloridas, uma arte popular mexicana de grande importância cultural, 
-                especialmente na região de <b>Oaxaca</b>. São criaturas imaginárias, frequentemente <b>feitas de papel machê ou madeira</b>, 
-                com cores vibrantes e desenhos complexos. Embora não sejam uma tradição tradicionalmente associada ao <b>Dia de los Muertos</b> 
-                (Dia dos Mortos), os Alebrijes são frequentemente incorporados à celebração.</p> 
-            <br>
+                                <div class="row align-items-center">
 
-            <a href="#"><img src="imagens/dancas.jpg" title="Danças" alt="Danças" width= 650px; height= 400px;></a>
+                                    <!-- Carrosel diadelmuertos -->
+                                    <div class="col-md-6">
+                                        <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
 
-            <h2>Danças</h2>
-            <p class="sobre">Assim como na música, a cultura mexicana também é rica e diversificada em sua <b>danças</b>, com influências indígenas, europeias 
-                e afro-americanas. A música é uma parte essencial das celebrações mexicana.
-                O <b>Jarabe Tapatío</b>, ou <b>"Dança do Chapéu Mexicano"</b>, é a dança nacional do México. Originária de Guadalajara, 
-                Jalisco, no século XIX, caracterizada por um <b>ritmo alegre</b> e passos que envolvem a <b>troca de chapéus entre os dançarinos</b>. A dança 
-                é geralmente <b>executada por um casal vestido caracterizado</b>.</p>
-            <br>
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/diadosmortos.jpg" title="Día de los Muertos" class="d-block w-100">
+                                                </div>
 
-            
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/muerto.jpeg" title="Día de los Muertos" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/muerto2.jpg" title="Día de los Muertos" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Día de los Muertos</h3>
+                                        <p><b>O Día de los muertos</b> (Dia dos mortos) é uma data comemorativa celebrada no México no dia <b>2 de Novembro</b>, 
+                                            na qual é costume ir aos cemitérios visitar os túmulos dos entes queridos e preparar altares com alimentos, velas, flores e 
+                                            outros elementos. Dizem que, somente nesses dias, as almas podem voltar do além para estar perto dos seus entes queridos.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mariachis -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                Mariachis
+                            </button>
+                        </h2>
+
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionCultura">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrossel Mariachi-->
+                                    <div class="col-md-6">
+                                        <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/mariachis.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/mariachis2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/mariachis3.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao"class="col-md-6 text-white">
+                                        <h3>Mariachis</h3>
+                                        <p><b>Los Mariachis</b> são grupos musicais tradicionais do México, conhecidos por sua música alegre e danças animadas e vários instrumentos.</p>
+                                        <p>Representam uma das mais importantes tradições culturais do país, com influências indígenas, europeias e africanas.</p>
+                                        <p>O nome "Mariachi" pode se referir tanto ao conjunto musical quanto à música que eles tocam, e é um elemento essencial em festas, cerimônias e celebrações mexicanas.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alebrijes -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                Alebrijes
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionCultura">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- Carrosel alebrijes -->
+                                    <div class="col-md-6">
+                                        <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/alejibres.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret2.jpeg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret3.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret4.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/caret5.jpg" class="d-block w-100">
+                                                </div>
+
+
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao"class="col-md-6 text-white">
+                                        <h3>Alebrijes</h3>
+                                        <p>Os <b>Alebrijes</b> são figuras fantásticas e coloridas, uma arte popular mexicana de grande importância cultural, 
+                                            especialmente na região de <b>Oaxaca</b>.</p>
+                                        <p>São criaturas imaginárias, frequentemente <b>feitas de papel machê ou madeira</b>, 
+                                            com cores vibrantes e desenhos complexos. Embora não sejam uma tradição tradicionalmente associada ao <b>Dia de los Muertos</b> 
+                                            (Dia dos Mortos), os Alebrijes são frequentemente incorporados à celebração.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Danças mexicanas -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                                Danças Mexicanas
+                            </button>
+                        </h2>
+
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionCultura">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- carrossel dança -->
+                                    <div class="col-md-6">
+                                        <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/dancas.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel.jpeg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel3.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel4.jpg" class="d-block w-100">
+                                                </div>
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/castel5.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>Danças mexicanas</h3>
+                                        <p>A cultura mexicana também é rica e diversificada em sua <b>danças</b>, com influências indígenas, europeias 
+                                            e afro-americanas. A música é uma parte presente nas celebrações mexicana.</p>
+                                        <p>O <b>Jarabe Tapatío</b>, ou <b>"Dança do Chapéu Mexicano"</b>, é a dança nacional do México, vinda do século XIX, 
+                                            caracterizada por um <b>ritmo alegre</b> e passos que envolvem a <b>troca de chapéus entre os dançarinos</b>, sendo 
+                                            geralmente <b>executada por um casal vestido caracterizado</b>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cultura indígena -->
+                    <div class="accordion-item bg-dark">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                A presença da Cultura Indígena
+                            </button>
+                        </h2>
+
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionCultura">
+                            <div class="accordion-body">
+
+                                <div class="row align-items-center">
+
+                                    <!-- carrossel cultura indígena -->
+                                    <div class="col-md-6">
+                                        <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                                            <div class="carousel-inner">
+
+                                                <div id="fotos" class="carousel-item active">
+                                                    <img src="imagens/cultura.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/cultura2.jpg" class="d-block w-100">
+                                                </div>
+
+                                                <div id="fotos" class="carousel-item">
+                                                    <img src="imagens/cultura3.jpg" class="d-block w-100">
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon"></span>
+                                            </button>
+
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div id="descricao" class="col-md-6 text-white">
+                                        <h3>A Presença da Cultura Indígena</h3>
+                                        <p>Pouco mais de 20% do povo do México é indígena e o país tem mais de 60 línguas diferentes, e cada região tem seus próprios 
+                                            grupos étnicos, cada um com sua cultura.</p>
+                                        <p>Os maias, por exemplo, abandonaram suas cidades por volta de 1500 dC, mas não desapareceram. 
+                                            Cerca de 500.000 pessoas de ascendência maia permanecem no México, a maioria ainda falando maia.</p>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
+        <br>
         
     </main>
     <footer>
